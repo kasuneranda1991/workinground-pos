@@ -1,0 +1,26 @@
+Auth::user()->shop->shop_name
+$user->shop->id
+$shop->users()  (this is  a collection of users)
+
+$product->stock->stock_id
+#stock->product->product_name
+$product->company->company_name
+
+$product->Batch->batch_no
+$batch->Product->product_name
+
+$bill->Product->product_name
+$product->Bill->transaction_id
+
+$reservation->guest_detail->first_name
+$guestDetails->reservation->tour_no
+
+$reservation->reservation_payment->payment_state
+$reservation_payment->reservation->tour_no
+
+
+error log
+
+billing item post when directly triger finich bill model with out go through shopping cart
+
+there is multiple submit data to database when notifiy.lk epi error after reload
