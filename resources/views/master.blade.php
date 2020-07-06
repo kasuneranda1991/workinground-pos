@@ -436,8 +436,8 @@
                           <p><span style="font-size: 20px;" class="text-danger text-semibold">{{ Auth::user()->shop->expire_date }}</span></p>
                         </div>
                       </a>
-                      <a class="dropdown-item notification__all text-center" href="#"> <p class="text-justify">You dont need to do any payment to use this system,because this is under testing period and please give us your valuable comment,During this testing period we will provide users to monthly based payment method including all functionality of this system,Monthly payment will be less than 2000 LKR</p></a>
-                      <a class="dropdown-item notification__all text-center" href="#"> <p class="text-justify">ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</p></a>
+                      <!-- <a class="dropdown-item notification__all text-center" href="#"> <p class="text-justify">You dont need to do any payment to use this system,because this is under testing period and please give us your valuable comment,During this testing period we will provide users to monthly based payment method including all functionality of this system,Monthly payment will be less than 2000 LKR</p></a> -->
+                      <!-- <a class="dropdown-item notification__all text-center" href="#"> <p class="text-justify">ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</p></a> -->
                     </div>
                   </li>
                 <!-- end shop id -->

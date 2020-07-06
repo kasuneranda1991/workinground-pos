@@ -76,7 +76,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"><img src="{{ asset('LandingPage/img/icon/logo.png') }}" alt="logo" class="img-responsive"></a>
+						<a class="navbar-brand" href="#"><img src="{{ asset('LandingPage/img/icon/logo-min.png') }}" alt="logo" class="img-responsive"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="navigation">
 						<ul class="nav navbar-nav navbar-right">
@@ -118,7 +118,7 @@
 					<div class="col-md-4 col-sm-6">
 						<div class="single-service">
 							<div class="service-icon">
-								<img src="{{ asset('LandingPage/img/icon/service-icon-1.png') }}" alt="">
+								<img src="{{ asset('LandingPage/img/icon/service-icon-1-min.png') }}" alt="">
 							</div>
 							<div class="service-content">
 								<h2>Easy To Customize</h2>
@@ -129,7 +129,7 @@
 					<div class="col-md-4 col-sm-6">
 						<div class="single-service">
 							<div class="service-icon">
-								<img src="{{ asset('LandingPage/img/icon/service-icon-2.png') }}" alt="">
+								<img src="{{ asset('LandingPage/img/icon/service-icon-2-min.png') }}" alt="">
 							</div>
 							<div class="service-content">
 								<h2>Awesome Design</h2>
@@ -140,7 +140,7 @@
 					<div class="col-md-4 hidden-sm">
 						<div class="single-service">
 							<div class="service-icon">
-								<img src="{{ asset('LandingPage/img/icon/service-icon-3.png') }}" alt="">
+								<img src="{{ asset('LandingPage/img/icon/service-icon-3-min.png') }}" alt="">
 							</div>
 							<div class="service-content">
 								<h2>24x7 Customer Support</h2>

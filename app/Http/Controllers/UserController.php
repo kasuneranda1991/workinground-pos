@@ -33,13 +33,14 @@ class UserController extends Controller
             $new_shop = new Shop();
             $new_shop->shop_name = $shop_name;
             $new_shop->type = $shop_type;
-            $new_shop->expire_date = Carbon::parse(Carbon::now())->addDays(150);
+            $new_shop->expire_date = Carbon::parse(Carbon::now())->addDays(365);
             $new_shop->save();
 
             // create user
             $user = new User;
             $user->username = $username;
             $user->password = $password;
+            $user->role = 'admin';
             $user->confirmed = 1;
             if(substr($contact_no,0,1) == 0){
                 $user->contact_no = substr_replace($contact_no,"94",0,1);
@@ -51,6 +52,7 @@ class UserController extends Controller
             // $user->verification_code = $verificationCode; Vcode disabled due to finantial difficulties
             
             $user->verification_code = 0;
+            $user->account_state = 'Verified';
             $user->login_state = 'online';
             $user->shop_id = Shop::where('shop_name',$shop_name)->latest()->value('id');
             $user->save();
@@ -59,23 +61,23 @@ class UserController extends Controller
             Auth::login($user);
             // $shop_id_contact = Shop::where('shop_name',$shop_name)->value('id');
 
-            $api_instance = new \NotifyLk\Api\SmsApi();
-            $user_id = "10611"; // string | API User ID - Can be found in your settings page.
-            $api_key = "bLaRxOMBksfNdn7Q4NUn"; // string | API Key - Can be found in your settings page.
-            $message = "Hi ". $username. " this is Your Verification Code " .$verificationCode." Contact Us if you need help"; // string | Text of the message. 320 chars max.
-            $to = $sender_no; // string | Number to send the SMS. Better to use 9471XXXXXXX format.
-            $sender_id = "WORKINGROUN"; // string | This is the from name recipient will see as the sender of the SMS. Use \\\"NotifyDemo\\\" if you have not ordered your own sender ID yet.
-            $contact_fname = $shop_name; // string | Contact First Name - This will be used while saving the phone number in your Notify contacts.
-            $contact_lname = ""; // string | Contact Last Name - This will be used while saving the phone number in your Notify contacts.
-            $contact_email = ""; // string | Contact Email Address - This will be used while saving the phone number in your Notify contacts.
-            $contact_address = ""; // string | Contact Physical Address - This will be used while saving the phone number in your Notify contacts.
-            $contact_group = 0; // int | A group ID to associate the saving contact with
+            // $api_instance = new \NotifyLk\Api\SmsApi();
+            // $user_id = "10611"; // string | API User ID - Can be found in your settings page.
+            // $api_key = "bLaRxOMBksfNdn7Q4NUn"; // string | API Key - Can be found in your settings page.
+            // $message = "Hi ". $username. " this is Your Verification Code " .$verificationCode." Contact Us if you need help"; // string | Text of the message. 320 chars max.
+            // $to = $sender_no; // string | Number to send the SMS. Better to use 9471XXXXXXX format.
+            // $sender_id = "WORKINGROUN"; // string | This is the from name recipient will see as the sender of the SMS. Use \\\"NotifyDemo\\\" if you have not ordered your own sender ID yet.
+            // $contact_fname = $shop_name; // string | Contact First Name - This will be used while saving the phone number in your Notify contacts.
+            // $contact_lname = ""; // string | Contact Last Name - This will be used while saving the phone number in your Notify contacts.
+            // $contact_email = ""; // string | Contact Email Address - This will be used while saving the phone number in your Notify contacts.
+            // $contact_address = ""; // string | Contact Physical Address - This will be used while saving the phone number in your Notify contacts.
+            // $contact_group = 0; // int | A group ID to associate the saving contact with
 
-            try {
-                $api_instance->sendSMS($user_id, $api_key, $message, $to, $sender_id, $contact_fname, $contact_lname, $contact_email, $contact_address, $contact_group);
-            } catch (Exception $e) {
-                echo 'Exception when calling SmsApi->sendSMS: ', $e->getMessage(), PHP_EOL;
-            }
+            // try {
+            //     $api_instance->sendSMS($user_id, $api_key, $message, $to, $sender_id, $contact_fname, $contact_lname, $contact_email, $contact_address, $contact_group);
+            // } catch (Exception $e) {
+            //     echo 'Exception when calling SmsApi->sendSMS: ', $e->getMessage(), PHP_EOL;
+            // }
             // ________________________________________________________________
             return redirect('/');
         }else if($shop_count != null){
@@ -126,23 +128,23 @@ class UserController extends Controller
                 // ________________________________________________________________
                 // $shop_id_contact = Shop::where('shop_name',$shop_name)->value('id');
 
-                $api_instance = new \NotifyLk\Api\SmsApi();
-                $user_id = "10611"; // string | API User ID - Can be found in your settings page.
-                $api_key = "bLaRxOMBksfNdn7Q4NUn"; // string | API Key - Can be found in your settings page.
-                $message = "Hi ". $username. " this is Your Verification Code " .$verificationCode." Contact Us if you need help"; // string | Text of the message. 320 chars max.
-                $to = $sender_no; // string | Number to send the SMS. Better to use 9471XXXXXXX format.
-                $sender_id = "WORKINGROUN"; // string | This is the from name recipient will see as the sender of the SMS. Use \\\"NotifyDemo\\\" if you have not ordered your own sender ID yet.
-                $contact_fname = $shop_name; // string | Contact First Name - This will be used while saving the phone number in your Notify contacts.
-                $contact_lname = ""; // string | Contact Last Name - This will be used while saving the phone number in your Notify contacts.
-                $contact_email = ""; // string | Contact Email Address - This will be used while saving the phone number in your Notify contacts.
-                $contact_address = ""; // string | Contact Physical Address - This will be used while saving the phone number in your Notify contacts.
-                $contact_group = 0; // int | A group ID to associate the saving contact with
+                // $api_instance = new \NotifyLk\Api\SmsApi();
+                // $user_id = "10611"; // string | API User ID - Can be found in your settings page.
+                // $api_key = "bLaRxOMBksfNdn7Q4NUn"; // string | API Key - Can be found in your settings page.
+                // $message = "Hi ". $username. " this is Your Verification Code " .$verificationCode." Contact Us if you need help"; // string | Text of the message. 320 chars max.
+                // $to = $sender_no; // string | Number to send the SMS. Better to use 9471XXXXXXX format.
+                // $sender_id = "WORKINGROUN"; // string | This is the from name recipient will see as the sender of the SMS. Use \\\"NotifyDemo\\\" if you have not ordered your own sender ID yet.
+                // $contact_fname = $shop_name; // string | Contact First Name - This will be used while saving the phone number in your Notify contacts.
+                // $contact_lname = ""; // string | Contact Last Name - This will be used while saving the phone number in your Notify contacts.
+                // $contact_email = ""; // string | Contact Email Address - This will be used while saving the phone number in your Notify contacts.
+                // $contact_address = ""; // string | Contact Physical Address - This will be used while saving the phone number in your Notify contacts.
+                // $contact_group = 0; // int | A group ID to associate the saving contact with
 
-                try {
-                    $api_instance->sendSMS($user_id, $api_key, $message, $to, $sender_id, $contact_fname, $contact_lname, $contact_email, $contact_address, $contact_group);
-                } catch (Exception $e) {
-                    echo 'Exception when calling SmsApi->sendSMS: ', $e->getMessage(), PHP_EOL;
-                }
+                // try {
+                //     $api_instance->sendSMS($user_id, $api_key, $message, $to, $sender_id, $contact_fname, $contact_lname, $contact_email, $contact_address, $contact_group);
+                // } catch (Exception $e) {
+                //     echo 'Exception when calling SmsApi->sendSMS: ', $e->getMessage(), PHP_EOL;
+                // }
                 // ________________________________________________________________
                 return redirect('/');
             }else{
