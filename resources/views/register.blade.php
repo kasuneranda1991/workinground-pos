@@ -42,7 +42,7 @@
   <div class="limiter">
     <div class="container-login100">
       <div class="wrap-login100" style="padding-top: 80px;">
-        <small>ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</small>
+        <!-- <small>ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</small> -->
         <div class="login100-pic js-tilt" data-tilt>
           <img src="{{ asset('logo/logo-poster.png') }}" alt="www.workinground.com">
         </div>
@@ -138,9 +138,9 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <p class="text-justify">You dont need to do any payment to use this system,because this is under testing period and please give us your valuable comment,During this testing period we will provide users to monthly based payment method including all functionality of this system,Monthly payment will be less than 12 USD</p>
+        <!-- <p class="text-justify">You dont need to do any payment to use this system,because this is under testing period and please give us your valuable comment,During this testing period we will provide users to monthly based payment method including all functionality of this system,Monthly payment will be less than 12 USD</p> -->
         <br>
-        <p class="text-justify">ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</p>
+        <!-- <p class="text-justify">ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</p> -->
         
         <a class="badge badge-success" href="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software">Watch our Product Demo Workinground.com</a>
       </div>
