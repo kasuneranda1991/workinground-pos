@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="description" content="{{ Carbon\Carbon::now()->toFormattedDateString() }} This is a Web Based Pos System that facilitate the inventory and Billing for users who use this,We'Allways Monitering you and help you to solve your problems and guid user business to larger incomes">
   <meta name="keywords" content="POS, android pos, Sri Lanka, Point of Sales Solutions in Sri Lanka, POS System in Sri Lanka, Best POS System in Sri Lanka, Supermarket POS Systems in Sri Lanka, point of sale, restaurant pos software, pos for small business, best pos system for small business, touch screen cash register, restaurant point of sale systems, pos app, restaurant computer systems, tablet pos, mobile pos system, retail pos system, bar pos system, pos inventory system, aloha pos, grocery store pos,post hoc, what is point of sale, pos system meaning" />
-
   <meta name="google-site-verification" content="B6m8GdiTiX82dWVD6LxuiEFqUEmxJ_X3Q75CJex9SAU" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->  
