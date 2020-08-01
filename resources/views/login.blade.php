@@ -27,6 +27,28 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('login/css/util.css') }}" media="print">
   <link rel="stylesheet" type="text/css" href="{{ asset('login/css/main.css') }}">
 <!--===============================================================================================-->
+<!-- COMMON TAGS -->
+<meta name="image" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="WORKINGROUND POS SYSTEM">
+	<meta itemprop="description" content="Sri Lankan Cheapest pos sytem for Retail,Supermarket,Pharmacy,Hardware shops with free trial account,No Credit Card required">
+	<meta itemprop="image" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="WORKINGROUND POS SYSTEM">
+	<meta name="twitter:description" content="Sri Lankan Cheapest pos sytem for Retail,Supermarket,Pharmacy,Hardware shops with free trial account,No Credit Card required">
+	<meta name="twitter:site" content="WORKINGROUND POS">
+	<meta name="twitter:creator" content="WORKINGROUND>COM">
+	<meta name="twitter:image:src" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="WORKINGROUND POS SYSTEM">
+	<meta name="og:description" content="Sri Lankan Cheapest pos sytem for Retail,Supermarket,Pharmacy,Hardware shops with free trial account,No Credit Card required">
+	<meta name="og:image" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
+	<meta name="og:url" content="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software">
+	<meta name="og:site_name" content="WORKINGROUND POS">
+	<meta name="og:video" content="https://youtu.be/W7-rS10cjdQ">
+	<meta name="og:type" content="website">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134041156-1"></script>
 <script async>
