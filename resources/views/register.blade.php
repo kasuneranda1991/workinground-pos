@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>WORKINGROUND POS SignUp</title>
+  <title>WORKINGROUND POS SYSTEM SIGNUP FOR NEW USER</title>
   <meta charset="UTF-8">
   <meta name="description" content="{{ Carbon\Carbon::now()->toFormattedDateString() }} This is a Web Based Pos System that facilitate the inventory and Billing for users who use this,We'Allways Monitering you and help you to solve your problems and guid user business to larger incomes">
   <meta name="keywords" content="POS, android pos, Sri Lanka, Point of Sales Solutions in Sri Lanka, POS System in Sri Lanka, Best POS System in Sri Lanka, Supermarket POS Systems in Sri Lanka, point of sale, restaurant pos software, pos for small business, best pos system for small business, touch screen cash register, restaurant point of sale systems, pos app, restaurant computer systems, tablet pos, mobile pos system, retail pos system, bar pos system, pos inventory system, aloha pos, grocery store pos,post hoc, what is point of sale, pos system meaning" />
@@ -131,7 +131,7 @@
               <i class="fa fa-cogs" aria-hidden="true"></i>
             </span>
           </div>
-          
+          <h1 style="opacity: 0.0;background-color: transparent;">Workinground pos system login</h1>
           <div class="container-login100-form-btn animated fadeInDown">
             <button class="login100-form-btn">
               Register

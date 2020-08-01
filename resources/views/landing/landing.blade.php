@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 
 <head>
 	<meta name="robots" content="index, follow">
@@ -8,7 +8,7 @@
 	<meta name="author" content="WORKINGROUND.COM">
 	<title>WORKINGROUND.COM POS|Free web based pos system software Sri Lanka</title>
 	<meta name="keywords" content="POS,android pos,free,now,shop,system software,customer service,customer service free,Sri Lanka,Point of Sales Solutions in Sri Lanka,POS System in Sri Lanka,Best POS System in Sri Lanka,web based pos software,best pos system,free pos system,sinhala pos system,receipt printer,pos system with receipt printer,pos system with sms notification,sms gateway,pos sms gateway,Supermarket POS Systems in Sri Lanka,point of sale,restaurant pos software,pos for small business,pos app,mobile pos system,retail pos system,bar pos system,pos inventory system,grocery store pos,workinground,workinground.com,workinground pos,payment,create account,demo pos,demo,demo period,trial,trial account" />
-	<meta name="description" content="{{ Carbon\Carbon::now()->toFormattedDateString() }} Web Based Pos System which facilitate the inventory and Billing.We help you to solve your problems and guide user business to larger incomes">
+	<meta name="description" content="{{ Carbon\Carbon::now()->toFormattedDateString() }} Landing Page for Web Based Pos System which facilitate the inventory and Billing.We help you to solve your problems and guide user business to larger incomes">
 	<meta name="google-site-verification" content="B6m8GdiTiX82dWVD6LxuiEFqUEmxJ_X3Q75CJex9SAU" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
