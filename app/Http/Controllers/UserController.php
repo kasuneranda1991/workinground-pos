@@ -535,6 +535,7 @@ class UserController extends Controller
                         return redirect()->back()->with('error','Old Password is Wrong');
                     }
                 }
+                return redirect()->back()->with('error','Nothing to update');;
         }
         else{
             return redirect('/sri-lanka-web-based-pos-system-software-signup');

@@ -266,7 +266,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     <script src="https://res.cloudinary.com/workinground/raw/upload/v1556012469/billing/plugins/jquery-datatable/extensions/export/buttons.print.min_kfo3en.js"></script>
 
     @if(Auth::user()->print_type == 'pos')
-        <script src="{{ asset('printer/webprint.js') }}"></script>  
+        <!-- <script src="{{ asset('printer/webprint.js') }}"></script>   -->
     @endif
 </body>
 </html>

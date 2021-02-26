@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2FD64B', end
 <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
 	<div class="card card-small ">
     	<div class="card-header border-bottom">
-        	<h6 class="m-0">Monthly Analysis Report</h6>
+        	<h6 class="m-0">Monthly Expence Analysis Report</h6>
         </div>
         <div class="card-body pt-0">
         <div class="row border-bottom py-2 bg-light">
@@ -102,9 +102,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2FD64B', end
                 <div class="col">
                     <select name="year" class="custom-select custom-select-sm" style="max-width: 400px;">
                         <option value="0" selected="">Select Year</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
+                        @php
+                        $year = Carbon\Carbon::now()->subYears(2)->year;
+                        @endphp
+                        @for ($i = 0; $i < 6; $i++)
+                        <option value="{{$year}}">{{$year}}</option>
+                        @php
+                        $year++;
+                        @endphp
+						@endfor
                     </select>
                 </div>
                 <div class="btn-group btn-group-sm">
