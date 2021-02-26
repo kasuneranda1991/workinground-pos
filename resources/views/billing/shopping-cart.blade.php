@@ -196,7 +196,7 @@
 </div>
 
 <!--print bill Modal -->
-<div class="modal fade printBillReceiptModal animated pulse" id="printBillReceiptModal" tabindex="-1" style="top:10%;" role="dialog" aria-labelledby="printBillReceiptModal" aria-hidden="true">
+<!-- <div class="modal fade printBillReceiptModal animated pulse" id="printBillReceiptModal" tabindex="-1" style="top:10%;" role="dialog" aria-labelledby="printBillReceiptModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -233,7 +233,7 @@
 
     </div>
   </div>
-</div>
+</div> -->
 
 <!--Help Modal -->
 <div class="modal fade helpModal animated pulse" id="helpModal" tabindex="-1" style="top:10%;" role="dialog" aria-labelledby="helpModal" aria-hidden="true">
