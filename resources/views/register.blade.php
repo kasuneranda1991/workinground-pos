@@ -46,7 +46,7 @@
 	<meta name="og:title" content="WORKINGROUND POS SYSTEM">
 	<meta name="og:description" content="Sri Lankan Cheapest pos sytem for Retail,Supermarket,Pharmacy,Hardware shops with free trial account,No Credit Card required">
 	<meta name="og:image" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
-	<meta name="og:url" content="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software">
+	<meta name="og:url" content="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}">
 	<meta name="og:site_name" content="WORKINGROUND POS">
 	<meta name="og:video" content="https://youtu.be/W7-rS10cjdQ">
 	<meta name="og:type" content="website">
@@ -144,7 +144,7 @@
           </div>
           <div class="text-center p-t-12">
             <span class="txt1">
-              <a href="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software"> © workinground.com</a>
+              <a href="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}"> © workinground.com</a>
             </span>
           </div>
         </form>
@@ -165,7 +165,7 @@
         <br>
         <!-- <p class="text-justify">ඔබට මෙම පද්ධතිය භාවිතය සඳහා කිසිදු ගෙවීමක් කිරීමට අවශ්‍ය නොවේ.මෙම පද්ධතිය පරික්ශන මට්ටමේ පවතින බැවින් ඔබගේ වටිනා අදහස් පහත ඇති චැට් මොඩුලය භාවිතයෙන් අපට ලබාදෙන්න,සියලු පද්ධති පරික්ශාවෙන් පසු ඔබහට රු.2000 ට අඩු මාසික ගෙවීම් පදනම මත පද්ධතිය භාවිතයට ඉඩ ලබාදෙනු ලැබේ</p> -->
         
-        <a class="badge badge-success" href="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software">Watch our Product Demo Workinground.com</a>
+        <a class="badge badge-success" href="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}">Watch our Product Demo Workinground.com</a>
       </div>
     </div>
   </div>
