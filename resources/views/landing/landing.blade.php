@@ -59,7 +59,7 @@
 	<meta name="og:title" content="WORKINGROUND POS SYSTEM">
 	<meta name="og:description" content="Sri Lankan Cheapest pos sytem for Retail,Supermarket,Pharmacy,Hardware shops with free trial account,No Credit Card required">
 	<meta name="og:image" content="https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png">
-	<meta name="og:url" content="https://www.workinground.com/sri-lanka-workinground-free-web-based-pos-system-software">
+	<meta name="og:url" content="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}">
 	<meta name="og:site_name" content="WORKINGROUND POS">
 	<meta name="og:video" content="https://youtu.be/W7-rS10cjdQ">
 	<meta name="og:type" content="website">
@@ -164,7 +164,7 @@
 				<div class="col-md-6">
 					<div class="about-content">
 						<h2>About Workinground POS</h2>
-						<p>New Genaration Of Pos System in sri lanka.These days you can find various types of pos system software like <a href="https://www.shopify.com/pos">shopify</a>,<a href="https://www.vendhq.com">VENDHQ</a>.But Problem is you have to pay a lot for that systems.We happy to say that our company gives cheapest best pos system software solution for all types of business in sri lanka.This pos system can freely use,there no need to complex installation,just <a href="https://www.workinground.com/sri-lanka-workinground-web-based-pos-system-software-create-account">create account</a> and use.Workinground pos system design compatible with mobile device,pos touch screen monitors and tablet and much more.this web based pos software suite for Restaurant,retail,supermarket,pharmacy, small business and much more.Dont be late to <a href="https://www.workinground.com/sri-lanka-workinground-web-based-pos-system-software-create-account">create your own free standard pos software account</a> for your small business now.This is Sri Lanka best cheapest pos system software</p>
+						<p>New Genaration Of Pos System in sri lanka.These days you can find various types of pos system software like <a href="https://www.shopify.com/pos">shopify</a>,<a href="https://www.vendhq.com">VENDHQ</a>.But Problem is you have to pay a lot for that systems.We happy to say that our company gives cheapest best pos system software solution for all types of business in sri lanka.This pos system can freely use,there no need to complex installation,just <a href="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}">create account</a> and use.Workinground pos system design compatible with mobile device,pos touch screen monitors and tablet and much more.this web based pos software suite for Restaurant,retail,supermarket,pharmacy, small business and much more.Dont be late to <a href="{{url('/sri-lanka-workinground-free-web-based-pos-system-software')}}">create your own free standard pos software account</a> for your small business now.This is Sri Lanka best cheapest pos system software</p>
 						<a class="hero-btn video-popup" data-toggle="modal" data-target="#productDemoVideo" href="https://www.youtube.com/watch?v=BzMLA8YIgG0"><i class="icofont icofont-play-alt-2"></i> Watch Our Video</a>
 					</div>
 				</div>
@@ -790,7 +790,7 @@
 			"name": "WORKINGROUND",
 			"image": "https://res.cloudinary.com/workinground/image/upload/v1556021353/logo/logo-poster_r4ly6i.png",
 			"@id": "",
-			"url": "https://www.workinground.com/sri-lanka-web-based-pos-system-software-signup",
+			"url": "{{url('/sri-lanka-web-based-pos-system-software-signup')}}",
 			"telephone": "+94720782825",
 			"priceRange": "1500LKR",
 			"address": {
